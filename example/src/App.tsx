@@ -11,6 +11,9 @@ export default function App() {
         onChangeText={({ text }) => {
           console.log('ValueData:: ', text);
         }}
+        onFocus={() => {
+          console.log('HelloFocus');
+        }}
         value={'value'}
         style={styles.box}
       />
